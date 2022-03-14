@@ -20,7 +20,7 @@ This toolbox contains functions for distributed machine learning across multiple
 To use these functions the following web applications should be loaded into your installed Apache Tomcat container: FLData.war and MPIClient.war.
 A template configuration for the web application is provided in directory /install/.
 
-## Referances ##
+## References ##
 [1] M. Field, D. Thwaites, M. Carolan, G. Delaney, J. Lehmann, J. Sykes, S. Vinod, L. Holloway, Infrastructure platform for privacy-preserving distributed machine learning development of computer-assisted theragnostics in cancer, Journal of Biomedical Informatics (submitted).
 
 [2] M. Field, M. Barakat, M. Bailey, M. Carolan, A. Dekker, G. Delaney, G. Goozee, L. Holloway, J. Lehmann, T. Lustberg, J. van Soest, J. Sykes, S. Walsh, D. Thwaites, A distributed data mining network infrastructure for australian radiotherapy decision support, Proc Engineering and Physical Sciences in Medicine (EPSM) 39 (1) (2015) 323. doi:https://doi.org/10.1007/s13246-015-0410-1.
