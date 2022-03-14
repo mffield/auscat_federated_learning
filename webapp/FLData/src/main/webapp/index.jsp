@@ -6,7 +6,7 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-<title>Main page of FLServer</title>
+<title>Main page of FLData</title>
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 </head>
 <body>
@@ -15,7 +15,7 @@
 <h1>Distributed / federated learning network</h1>
 
 <br><br>
-FLServer
+FLData
 <br>
 Version: 1.1
 <br><br>
