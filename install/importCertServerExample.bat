@@ -1,5 +1,5 @@
 set password=changeme
-set server_alias=ozcat
+set server_alias=auscat
 
 set clientName=liverpool
 keytool -importcert -keystore %server_alias%_trust.jks -alias %clientName%_key -file %clientName%-public.cer -storepass %password% -noprompt

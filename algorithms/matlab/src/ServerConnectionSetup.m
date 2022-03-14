@@ -1,6 +1,6 @@
 function [svc, number_of_clients] = ServerConnectionSetup(MPI_name,participating_clients,initialise)
 
-
+javaaddpath([pwd '\+wsdl\mpiclient.jar'])
 %%% Process input arguments
 
 clients_names = strsplit(participating_clients,',');
@@ -9,7 +9,7 @@ number_of_participating_clients=length(strsplit(participating_clients,','));
 disp(number_of_participating_clients)
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%% Connect to distribution server
-svc=MPIService(['http://localhost:80/' MPI_name '/MPIClient'],['http://localhost/' MPI_name '/MPIClient?wsdl']);
+svc=MPIService(['http://localhost:8080/' MPI_name '/MPIClient?wsdl']);
 startedMPI = initialiseCentralMPI(svc);
 if strcmp(startedMPI,'true')
     disp('Initialisation of MPI successful')
